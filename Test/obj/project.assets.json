@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Generator.Equals/0.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Generator.Equals.Runtime": "0.3.0"
+        }
+      },
+      "Generator.Equals.Runtime/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Generator.Equals.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Generator.Equals.Runtime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Generator.Equals/0.3.0": {
+      "sha512": "vptaAdP+Am0O5xxiTMPJyaDvC7prjxxi61dvgRFV0bZCj0GKHQHMJJwOJ4ChFrXm9XcAyNauFYqbHGa0xrLaOg==",
+      "type": "package",
+      "path": "generator.equals/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Generator.Equals.dll",
+        "generator.equals.0.3.0.nupkg.sha512",
+        "generator.equals.nuspec"
+      ]
+    },
+    "Generator.Equals.Runtime/0.3.0": {
+      "sha512": "e5K3ZcpCIPpkCeksrAEVfCJXkZ0bBlFSwyCYOfDAc57ZAkWcUqMoNqSvqJduhQVVUYhDX7fda5IU5a4VjkqANw==",
+      "type": "package",
+      "path": "generator.equals.runtime/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "generator.equals.runtime.0.3.0.nupkg.sha512",
+        "generator.equals.runtime.nuspec",
+        "lib/netstandard2.1/Generator.Equals.Runtime.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Generator.Equals >= 0.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Patrik\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Patrik\\Desktop\\Test\\Test\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "C:\\Users\\Patrik\\Desktop\\Test\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\Patrik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Patrik\\Desktop\\Test\\Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Patrik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Generator.Equals": {
+            "target": "Package",
+            "version": "[0.3.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

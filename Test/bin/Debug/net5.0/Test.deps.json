@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Test/1.0.0": {
+        "dependencies": {
+          "Generator.Equals": "0.3.0"
+        },
+        "runtime": {
+          "Test.dll": {}
+        }
+      },
+      "Generator.Equals/0.3.0": {
+        "dependencies": {
+          "Generator.Equals.Runtime": "0.3.0"
+        }
+      },
+      "Generator.Equals.Runtime/0.3.0": {
+        "runtime": {
+          "lib/netstandard2.1/Generator.Equals.Runtime.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Generator.Equals/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vptaAdP+Am0O5xxiTMPJyaDvC7prjxxi61dvgRFV0bZCj0GKHQHMJJwOJ4ChFrXm9XcAyNauFYqbHGa0xrLaOg==",
+      "path": "generator.equals/0.3.0",
+      "hashPath": "generator.equals.0.3.0.nupkg.sha512"
+    },
+    "Generator.Equals.Runtime/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e5K3ZcpCIPpkCeksrAEVfCJXkZ0bBlFSwyCYOfDAc57ZAkWcUqMoNqSvqJduhQVVUYhDX7fda5IU5a4VjkqANw==",
+      "path": "generator.equals.runtime/0.3.0",
+      "hashPath": "generator.equals.runtime.0.3.0.nupkg.sha512"
+    }
+  }
+}
