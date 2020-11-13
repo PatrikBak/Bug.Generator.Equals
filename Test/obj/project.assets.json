@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Generator.Equals/0.3.0": {
+      "Generator.Equals/0.4.1-alpha1": {
         "type": "package",
         "dependencies": {
-          "Generator.Equals.Runtime": "0.3.0"
+          "Generator.Equals.Runtime": "0.4.1-alpha1"
         }
       },
-      "Generator.Equals.Runtime/0.3.0": {
+      "Generator.Equals.Runtime/0.4.1-alpha1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Generator.Equals.Runtime.dll": {}
@@ -20,26 +20,26 @@
     }
   },
   "libraries": {
-    "Generator.Equals/0.3.0": {
-      "sha512": "vptaAdP+Am0O5xxiTMPJyaDvC7prjxxi61dvgRFV0bZCj0GKHQHMJJwOJ4ChFrXm9XcAyNauFYqbHGa0xrLaOg==",
+    "Generator.Equals/0.4.1-alpha1": {
+      "sha512": "3ZbHkpVseJrSzEJ9JUgF/FUeTHS+Z5+wxMatsjtsiM+R6m0ipkhanLMP1QR6lt2PaeQe2P8NJmNNkTCcOJwoig==",
       "type": "package",
-      "path": "generator.equals/0.3.0",
+      "path": "generator.equals/0.4.1-alpha1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/Generator.Equals.dll",
-        "generator.equals.0.3.0.nupkg.sha512",
+        "generator.equals.0.4.1-alpha1.nupkg.sha512",
         "generator.equals.nuspec"
       ]
     },
-    "Generator.Equals.Runtime/0.3.0": {
-      "sha512": "e5K3ZcpCIPpkCeksrAEVfCJXkZ0bBlFSwyCYOfDAc57ZAkWcUqMoNqSvqJduhQVVUYhDX7fda5IU5a4VjkqANw==",
+    "Generator.Equals.Runtime/0.4.1-alpha1": {
+      "sha512": "DdMn8ikPF6xeQRamTFc1yrymoPXJ/IU/wu8kChxcGOPPAJFEHKekIVK9vyadkOLzopDUUd988CfmHtgFdWYN7w==",
       "type": "package",
-      "path": "generator.equals.runtime/0.3.0",
+      "path": "generator.equals.runtime/0.4.1-alpha1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "generator.equals.runtime.0.3.0.nupkg.sha512",
+        "generator.equals.runtime.0.4.1-alpha1.nupkg.sha512",
         "generator.equals.runtime.nuspec",
         "lib/netstandard2.1/Generator.Equals.Runtime.dll"
       ]
@@ -47,7 +47,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Generator.Equals >= 0.3.0"
+      "Generator.Equals >= 0.4.1-alpha1"
     ]
   },
   "packageFolders": {
@@ -95,7 +95,7 @@
         "dependencies": {
           "Generator.Equals": {
             "target": "Package",
-            "version": "[0.3.0, )"
+            "version": "[0.4.1-alpha1, )"
           }
         },
         "imports": [

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AP4mrF1bg2WweDUnbDaq8fGPMAJwFb/3PefEeqLZUTaaiBYyzCdp+mrtRNn/jyFADadiKDiXFMDoCbttMt4Hzw==",
+  "dgSpecHash": "NAG9ZQAe7jeb75XbiXkqwyEHMUrPFBi41eTcrNjMZYVQhdmLoKQjjl66YmYsxWYRp5JOnbN3KHp6KhPtx9lu8w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Patrik\\Desktop\\Test\\Test\\Test.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Patrik\\.nuget\\packages\\generator.equals\\0.3.0\\generator.equals.0.3.0.nupkg.sha512",
-    "C:\\Users\\Patrik\\.nuget\\packages\\generator.equals.runtime\\0.3.0\\generator.equals.runtime.0.3.0.nupkg.sha512"
+    "C:\\Users\\Patrik\\.nuget\\packages\\generator.equals\\0.4.1-alpha1\\generator.equals.0.4.1-alpha1.nupkg.sha512",
+    "C:\\Users\\Patrik\\.nuget\\packages\\generator.equals.runtime\\0.4.1-alpha1\\generator.equals.runtime.0.4.1-alpha1.nupkg.sha512"
   ],
   "logs": []
 }

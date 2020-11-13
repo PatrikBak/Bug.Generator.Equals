@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Generator.Equals" Version="0.3.0" />
+    <PackageReference Include="Generator.Equals" Version="0.4.1-alpha1" />
   </ItemGroup>
 
 </Project>
